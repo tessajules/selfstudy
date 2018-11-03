@@ -47,7 +47,7 @@ def sort_scores_arr(unsorted_scores, highest_possible_score)
     unless count > 0
       i = i - 1
     end
-    count.time { sorted_scores << i }
+    count.times { sorted_scores << i }
     i = i - 1
   end
 
